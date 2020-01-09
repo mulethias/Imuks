@@ -137,6 +137,23 @@ p{
 	}
 	
 .res-nav_click{ display:none;}
+
+
+.header-pic{
+	width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+
+
+}
+.landing-page{
+	background-position: center;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("../img/header_pic.jpg");
+}
 	
 
 /* Nav Styles
@@ -206,6 +223,10 @@ p{
 	position:relative;
 	padding-top: 50px;
 	}
+.main-text {
+	color: #fff !important;
+ background-color: rgba(156, 107, 107, 0.3);
+}	
 	
 .melchi{
 	position:relative;
@@ -310,7 +331,7 @@ a.learn_more2:hover{
 	}
 	
 .service_icon.icon2{
-	border:2px solid #000000;
+	border:2px solid #706969;
 	}
 	
 .service_icon.icon3{
@@ -319,7 +340,7 @@ a.learn_more2:hover{
 	
 .service_icon span {
     background:#000000;
-    border: 3px solid #000000;
+    border: 3px solid #ccb9b9;
     border-radius: 50%;
     display: block;
     height: 100%;
@@ -343,7 +364,7 @@ a.learn_more2:hover{
 .service_block h3{
 	font-family: 'Dosis';
 	font-weight: 600;
-	font-size:18px;dashboard_pic.png
+	font-size:18px;
 	color:#111111;
 	margin:35px 0 18px;
 	}
@@ -696,9 +717,10 @@ img {
 
 .c-logo-part{
 	background: url(../img/poligan_bg.jpg) no-repeat left top;
-	padding: 60px 0;
+	padding: 50px 0;
 	margin-top: 60px;
-    filter: alpha(opacity=60);
+	filter: alpha(opacity=60);
+	
 }
 .c-logo-part ul{
 	padding:0;
@@ -939,7 +961,7 @@ img {
 	border-color:#49b5e7;
 	}
 .contact_block_icon span {
-    background: none repeat scroll 0 0 #f56eab;
+    background: none repeat scroll 0 0 #49b5e7;
     border: 5px solid #fff;
     border-radius: 50%;
     display: block;
@@ -956,7 +978,7 @@ img {
 	border-color:#49b5e7;
 	}
 .contact_block_icon.icon3 span{
-	background:#49b5e7;
+	background:#ff7300;
 	}
 .contact_block_icon i {
     color: #fff;
@@ -1130,6 +1152,21 @@ img {
 
 .footer_bottom span a:hover{
 	color: #fff;
+}
+
+.h_text{
+	color:#fcf8f8;
+background-color: rgba(154, 24, 24, 0.3);
+}
+
+.p_text{
+	color:#fcf8f8;
+	background-color: rgba(154, 24, 24, 0.3);
+}
+
+.fa-heart{
+color: #ff0000;
+
 }
 
 /* Animation Timers
