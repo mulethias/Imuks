@@ -379,6 +379,12 @@ a.learn_more2:hover{
     height: 200px;
 
 }	
+.img-circle{
+	border-radius: 50%;
+	width:85px;
+	height:85px;
+}
+
 
 
 /* Latest Work
