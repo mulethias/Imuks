@@ -293,6 +293,12 @@ a.learn_more2{
 a.learn_more2:hover{
 	background:#222222;
 	}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+  }
 
 	
 
